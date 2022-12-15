@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "poppins", sans-serif;
 }
 
 
@@ -11,7 +12,7 @@
     height: 100%;
     width: 100%;
     padding: 0 8%;
-    background: rgb(243, 242, 242);
+    background: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -242,15 +243,16 @@ animation-delay: 1s;
 
 /* Categories */
 
-.break-text {
+.break-text h1{
     color: #fff;
     font-family: 'Orbitron', sans-serif;
-    font-size: 10.5px;
+    font-size: 24px;
+    padding: 0 30px;
     font-weight: 600;
     margin-bottom: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
-.line {
+.breakline {
     width: 80%;
     height: 5px;
     border: 0 none;
@@ -322,14 +324,11 @@ animation-delay: 1s;
     letter-spacing: 1px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 500;
-    border: solid #080053 2px;
-    border-radius: 3px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .categories .drop .drop-content a:hover {
     color: #fff;
     background-color: #080053;
-
 }
 
 
@@ -380,6 +379,7 @@ iframe {
     border-radius: 30px;
     border: solid rgb(145, 145, 145) 5px;
     margin-bottom: 120px;
+    margin-left: 40px;
 }
 
 /* Footer */
@@ -388,7 +388,7 @@ iframe {
     position: relative;
     width: 100%;
     padding: 30px;
-    background: rgb(243, 242, 242);
+    background: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -474,6 +474,17 @@ form .btn {
 	padding: 100px 0px 0px;
 	background-image: linear-gradient(to right top, #03ead8, #00dbea, #00caf7, #00b7fd, #00a2f8, #00a3f9, #00a5f9, #00a6fa, #00beff, #00d4ff, #00e8fa, #5ffbf1);
 }
+.virtual {
+    background-image: linear-gradient(to right top, #ee7816, #f76032, #fa4649, #f72b61, #ec137a, #ec137a, #ec137a, #ec137a, #f72b61, #fa4649, #f76032, #ee7816);
+}
+.biology {
+    background-image: linear-gradient(to right top, #26d58a, #1cda81, #17de77, #19e26c, #21e65f, #25de53, #28d746, #2acf39, #25ba2c, #1ea61f, #179211, #0e7e02);
+}
+.space {
+    background: url(Images/sunrise.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .robots img{
 	height: auto;
 	width: 800px;
@@ -489,9 +500,10 @@ form .btn {
 	align-items: center;
 	justify-content: space-around;
 }
-.hero-text h2{
+.hero-text h1{
+    font-family: 'Orbitron', sans-serif;
 	color: white;
-	font-size: 75px;
+	font-size: 65px;
 	text-transform: capitalize;
 	margin-bottom: 40px;
 }
@@ -505,8 +517,7 @@ form .btn {
 .robots button{
 	background-color:#ffffff;
 	color: #080053;
-	text-decoration: none;
-	border: 2px solid #080053;
+    border: none;
 	font-weight: bold;
     font-size: 24px;
 	padding: 20px 30px;
@@ -517,7 +528,6 @@ form .btn {
 .robots button:hover{
 	background-color: #080053;
     color: #fff;
-	border: 2px solid #080053;
 	cursor: pointer;
 }
 
@@ -526,7 +536,7 @@ form .btn {
 .robots-2{
 	width: 100%;
 	padding: 50px 0px;
-	background-color: #161748;
+	background: radial-gradient(ellipse at bottom, #270b83 0%,#000000 100%);;
 }
 .robots-2 img{
 	height: 100%;
@@ -550,7 +560,7 @@ form .btn {
 	margin-bottom: 40px;
 }
 .hero-2-text p{
-	color: #fcfc;
+	color: #fff;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -561,7 +571,16 @@ form .btn {
 .robots-3{
 	width: 100%;
 	padding: 30px 0px;
-	background-color: #0049B7;
+	background-image: linear-gradient(to right top, #03ead8, #00dbea, #00caf7, #00b7fd, #00a2f8, #00a3f9, #00a5f9, #00a6fa, #00beff, #00d4ff, #00e8fa, #5ffbf1);
+}
+.virtual-3 {
+    background-image: linear-gradient(to right top, #ee7816, #f76032, #fa4649, #f72b61, #ec137a, #ec137a, #ec137a, #ec137a, #f72b61, #fa4649, #f76032, #ee7816);
+}
+.biology-3 {
+    background-image: linear-gradient(to right top, #26d58a, #1cda81, #17de77, #19e26c, #21e65f, #25de53, #28d746, #2acf39, #25ba2c, #1ea61f, #179211, #0e7e02);
+}
+.space-3 {
+    background-image: linear-gradient(to right top, #000000, #131212, #1f1e1e, #2a2929, #373535, #373535, #373535, #373535, #2a2929, #1f1e1e, #131212, #000000);
 }
 .robots-3 img{
 	height: auto;
@@ -586,7 +605,7 @@ form .btn {
 	margin-bottom: 20px;
 }
 .hero-3-text p{
-	color: #fcfc;
+	color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -598,7 +617,7 @@ form .btn {
 
 
 .service{
-	background-image: linear-gradient(to right top, #03ead8, #00dbea, #00caf7, #00b7fd, #00a2f8, #00a3f9, #00a5f9, #00a6fa, #00beff, #00d4ff, #00e8fa, #5ffbf1);
+	background: radial-gradient(ellipse at bottom, #270b83 0%,#000000 100%);
 	width: 100%;
 	padding: 100px 0px;
 }
@@ -619,52 +638,214 @@ form .btn {
 	height: 365px;
 	width: 335px;
 	padding: 20px 35px;
-	background: #02398d;
-	border-radius: 20px;
+    color: #fff;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
 }
-.card i{
-	font-size: 50px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: #f9004d;
-
-}
 h5{
-	color: white;
 	font-size: 23px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .pra p{
-	color: #fcfc;
 	font-size: 16px;
 	line-height: 27px;
-	margin-bottom: 25px;
+	margin-bottom: 70px;
 }
 .card .button{
 	background-color:#fff;
+    border: none;
 	color: #080053;
 	text-decoration: none;
-	border: 2px solid #080053;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 2px;
+    font-size: 24px;
+	font-weight: 600;
+	padding: 5px 25px;
+	border-radius: 5px;
 	transition: .4s; 
 }
 .card .button:hover{
     color: #fff;
 	background-color: #080053;
-	border: 2px solid #fff;
 	cursor: pointer;
 }
 
 
 
+/* Contact Page */
 
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.contact::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: url(Images/venus.jpeg);
+    border-radius: 50%;
+    transform: translate(-500px,-200px);
+}
+.contact::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: url(Images/mercury.jpeg);
+    border-radius: 50%;
+    transform: translate(450px,200px);
+}
+
+.contact-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+}
+.contact-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    transform: skewX(-15deg);
+}
+.contact-container h2 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+}
+.contact-container .contact-form .col .inputbox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+.contact-container .contact-form .col .inputbox input,
+.contact-container .contact-form .col .inputbox textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.contact-container .contact-form .col .inputbox input:focus + .text,
+.contact-container .contact-form .col .inputbox input:valid + .text,
+.contact-container .contact-form .col .inputbox textarea:focus + .text,
+ .inputbox textarea:valid + .text 
+{
+    top: -35px;
+    left: -10px;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+    background: #fff;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+textarea:focus ~ .line,
+textarea:valid ~ .line {
+    height: 100%;
+}
+
+.col a {
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    color: #000;
+    font-weight: 100000;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-left: 40%;
+    transition: 0.2s;
+}
+.col a:hover {
+    color: #fff;
+    background-color: #080053;
+
+}
+
+@media (max-width: 768px)
+{
+    .contact::before{
+        transform: translate(-200px,-180px);
+    }
+    .contact::after{
+        transform: translate(220px,180px);
+    }
+    .contact-container{
+        padding: 20px;
+    }
+    .contact h2{
+        font-size: 28px;
+    }
+}
 
 
 
@@ -685,77 +866,15 @@ h5{
 
 /* Planets Page */
 
-
-
-
-.main {
-    background: 
-    url(Images/Black\ Space.jpeg)
-    center no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.space h2 {
+    color: rgb(225, 225, 225);
+    font-size: 40px;
+    margin-bottom: 70px;
 }
 
 
-.main h1 {
-    color: #fff;
-    position: absolute;
-    bottom: 60%;
-}
 
-.planet {
-    width: 20em;
-    height: 20em;
-    left: -30em;
-    background: url(Images/Earth.jpeg);
-    box-shadow: 
-    inset -2em -2em 2em #000,
-    -0.5em -0.5em 1em #8bdcf0;
-    position: relative;
-    animation: rotate 30s linear infinite;
-}
 
-.moon {
-    background: url(Images/mercury.jpeg);
-    box-shadow: 
-    inset -1.5em -1.5em 1.5em #000,
-    -0.2em -0.2em 0.5em #ccc;
-    width: 6em;
-    height: 6em;
-    position: absolute;
-    left: -11em;
-    top: 50%;
-    transform: translateY(-50%);
-    animation: rotate 15s linear infinite,
-    orbit 30s infinite ease-in-out;
-    z-index: 1;
-}
-
-.planet, .moon {
-    border-radius: 50%;
-    background-repeat: repeat;
-    background-size: 200% 100%;
-}
-
-@keyframes rotate {
-    to{ background-position: -200% 0;}
-}
-
-@keyframes orbit {
-    49% { z-index: 1; }
-    50% {
-        left: 25em;
-        z-index: -1;
-    }
-    99% { z-index: -1;}
-    100% {
-        left: -11em;
-        z-index: 1;
-    }
-}
 
 
 
