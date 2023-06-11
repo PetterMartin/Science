@@ -1,6 +1,6 @@
 # Science Museum
 
-![image](https://github.com/PetterMartin/Portfolio/blob/master/Images/Screenshot%202023-06-11%20at%2018.44.30.png)
+![image](https://github.com/PetterMartin/Science/blob/main/Images/Screenshot%202023-06-10%20at%2019.08.56.png)
 
 Website for a science museum targeted at young adults.
 
