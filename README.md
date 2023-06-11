@@ -26,7 +26,7 @@ This was a semester project where we were given a brief of a science museum and 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/PetterMartin/Portfolio
+git clone (https://github.com/PetterMartin/Science/tree/main)
 ```
 
 2. Install the dependencies:
